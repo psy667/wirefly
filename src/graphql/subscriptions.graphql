@@ -1,0 +1,28 @@
+# this is an auto generated file. This will be overwritten
+subscription OnCreateRoom {
+  onCreateRoom {
+    id
+    code
+    text
+    active
+    createdAt
+  }
+}
+subscription OnUpdateRoom {
+  onUpdateRoom {
+    id
+    code
+    text
+    active
+    createdAt
+  }
+}
+subscription OnDeleteRoom {
+  onDeleteRoom {
+    id
+    code
+    text
+    active
+    createdAt
+  }
+}

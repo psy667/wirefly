@@ -1,0 +1,8 @@
+<div *ngIf="roomId">Room: {{roomId}}</div>
+<img alt="qr-code" [src]="qrcode"><br>
+<label>
+  Text:
+<textarea [(ngModel)]="text" (input)="handleInput()">
+
+</textarea>
+</label>

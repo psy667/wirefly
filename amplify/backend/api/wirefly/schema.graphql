@@ -1,0 +1,10 @@
+type Room
+  @model
+{
+  id: ID!
+  code: String
+  text: String
+  active: Boolean
+  createdAt: String
+}
+
